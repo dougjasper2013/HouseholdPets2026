@@ -17,4 +17,14 @@ fun main() {
     println()
     println()
 
+    val myDog = Dog("Odie", 5, 20)
+
+    myDog.info()
+    myDog.makeSound()
+    myDog.fetch("ball")
+    myDog.run()
+
+    println()
+    println()
+
 }
