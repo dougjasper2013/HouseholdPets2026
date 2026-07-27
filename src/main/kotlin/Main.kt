@@ -15,5 +15,6 @@ fun main() {
     myCat.climb("fence")
 
     println()
+    println()
 
 }

@@ -11,7 +11,7 @@ class Cat(name: String, age: Int) : Animal(name, age)  {
     }
 
     fun climb(item: String) {
-        println("$name is climbing the $item.")
+        println("$name is climbing the $item")
     }
 
 }
