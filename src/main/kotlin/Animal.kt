@@ -6,7 +6,7 @@ open class Animal(val name: String, val age: Int) {
         println("$name makes a sound.")
     }
 
-    fun info(){
+    open fun info(){
         println("$name is $age year(s),old.")
     }
 

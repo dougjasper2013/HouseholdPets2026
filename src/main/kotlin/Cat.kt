@@ -1,6 +1,6 @@
 package org.example
 
-class Cat(name: String, age: Int) : Animal(name, age)  {
+class Cat(name: String, age: Int, val breed: String) : Animal(name, age)  {
 
     override fun makeSound() {
         println("$name meows.")
@@ -12,6 +12,11 @@ class Cat(name: String, age: Int) : Animal(name, age)  {
 
     fun climb(item: String) {
         println("$name is climbing the $item.")
+    }
+
+    override fun info() {
+        super.info()
+        println("and $name is a $breed cat.")
     }
 
 }

@@ -7,7 +7,7 @@ fun main() {
     println("Welcome to Household Pets 2026")
     println()
 
-    val myCat = Cat("Garfield", 8)
+    val myCat = Cat("Garfield", 8, "Ginger")
 
     myCat.info()
     myCat.makeSound()
