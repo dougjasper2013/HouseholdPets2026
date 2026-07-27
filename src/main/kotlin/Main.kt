@@ -11,8 +11,8 @@ fun main() {
 
     myCat.info()
     myCat.makeSound()
-    myCat.scratch()
-    myCat.climb()
+    myCat.scratch("furniture")
+    myCat.climb("fence")
 
     println()
 

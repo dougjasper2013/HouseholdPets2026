@@ -6,12 +6,12 @@ class Cat(name: String, age: Int) : Animal(name, age)  {
         println("$name meows.")
     }
 
-    fun scratch() {
-        println("$name is scratching furniture.")
+    fun scratch(item: String) {
+        println("$name is scratching $item.")
     }
 
-    fun climb() {
-        println("$name is climbing the curtains.")
+    fun climb(item: String) {
+        println("$name is climbing the $item.")
     }
 
 }
