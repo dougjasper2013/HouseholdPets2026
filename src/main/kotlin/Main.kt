@@ -27,7 +27,12 @@ fun main() {
     myDog.info()
     myDog.makeSound()
     myDog.fetch("ball")
+    myDog.runFullSpeed()
+    println()
+    myDog.walk()
     myDog.run()
+    myDog.swim()
+    myDog.fly()
 
     println()
     println()
