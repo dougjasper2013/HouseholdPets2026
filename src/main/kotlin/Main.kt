@@ -13,6 +13,11 @@ fun main() {
     myCat.makeSound()
     myCat.scratch("furniture")
     myCat.climb("fence")
+    println()
+    myCat.walk()
+    myCat.run()
+    myCat.swim()
+    myCat.fly()
 
     println()
     println()
